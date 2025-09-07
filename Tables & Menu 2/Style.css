@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: orange;
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+}
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  thead {
+    background: #ff9800;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  
+  tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  tbody tr:hover {
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .poster {
+    width: 50px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-top: 5px;
+}
+
+.poster:hover {
+    transform: rotate(-2deg) scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.7);
+}
+
+.popcorn {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;        
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transform: rotate(-2deg);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.popcorn:hover {
+    transform: rotate(0deg) scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.7);
+}
